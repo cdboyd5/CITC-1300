@@ -3,4 +3,4 @@
 
 <h1> My Web Projects </h1>
 
-<a href="CITC-1300/lab1/index.HTML">Lab1 - hello world</a>
+<a href="C:\Users\combo\Documents\GitHub\CITC-1300\lab1\index.HTML">Lab1 - hello world</a>
