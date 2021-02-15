@@ -4,3 +4,4 @@
 <h1> My Web Projects </h1>
 
 <a href="lab1/index.HTML">Lab1 - hello world</a>
+<a href="lab3/index.HTML"> Lab3 - more basics </a>
