@@ -5,4 +5,5 @@
 <ul>
 <a href="https://cdboyd5.github.io/CITC-1300/lab1/index.HTML"> Lab1 - hello world</a>
 <a href="https://cdboyd5.github.io/CITC-1300/lab3/index.html"> Lab3 - more basics </a>
+<a href="https://cdboyd5.github.io/CITC-1300/lab4/index.html"> lab4 - intro to css </a>
 </ul>
