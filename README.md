@@ -3,6 +3,6 @@
 
 <h1> My Web Projects </h1>
 <ul>
-<a href="lab1/index.HTML">Lab1 - hello world</a>
-<a href="lab3/index.HTML"> Lab3 - more basics </a>
+<a href="https://cdboyd5.github.io/citc-1300/lab2/index.html">Lab1 - hello world</a>
+<a href="https://cdboyd5.github.io/CITC-1300/lab3/index.html"> Lab3 - more basics </a>
 </ul>
