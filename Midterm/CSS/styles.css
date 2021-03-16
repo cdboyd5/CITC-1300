@@ -1,0 +1,88 @@
+/* global styles */
+
+body{
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/* main styles */
+
+#container {
+    background-color:silver;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header{
+    background-color: ghostwhite ;
+}
+
+header h2{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin: 0% auto;
+}
+
+header img {
+    display: block;
+    height: 500px;
+}
+header video{
+    display: block;
+    margin: 0px auto;
+}
+
+main{
+margin: 20px 0;
+padding: 20px;
+background-color: ghostwhite ;
+}
+
+main h1{
+    text-align: center;
+}
+main h4{
+    text-align: center;
+}
+main img{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 13px;
+    max-width: 100%;
+}
+
+footer{
+    background-color: ghostwhite ;
+}
+
+
+/* this is nav */
+nav{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    color:rgb(80, 124, 255);
+    background-color: ghostwhite;
+    padding: 12px 0px;
+    
+}
+nav a{
+    background-color: black;
+    color: ghostwhite;
+    padding: 10px 19px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: royalblue;
+    color: ghostwhite;
+}
