@@ -127,7 +127,6 @@ footer{
     header{
         background-image: url('../images/computer.jpg');
         background-size: cover;
-        background-position: center;
         padding: 100px 0;
         background-position-y: 93.5cm;
     }
