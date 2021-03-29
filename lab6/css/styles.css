@@ -1,0 +1,155 @@
+/* global styles */
+
+body{
+    background-color: tan;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+section p a:hover{
+background-color: white;
+color: royalblue;
+text-decoration: none;
+}
+
+
+/* mobile styles */
+
+header{
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: block;
+    padding: 5px 0;
+    border-top: 1px solid royalblue;
+    font-size: 1.5m;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul a:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 5px;  
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+/* tablet styles */
+@media only screen and (min-width: 768px)   {
+    header{
+        background-image: url('../images/tablet.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 60px 0;
+    }
+
+    header h1{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-size: 3em;   
+    }
+    
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a{
+        padding: 10px 40px;
+        border-left: 1px solid royalblue;
+        border-right: 1px solid royalblue;
+        border-bottom: 1px solid royalblue;
+    }
+
+    main{
+        display: flex;
+    }
+    section, aside{
+        border: 1px solid royalblue;
+        padding: 1px 0;
+        margin: 10px;
+    }
+
+    section{
+        width: 85%;
+    }
+    
+    aside h3{
+        text-align: center;
+    }
+    aside{
+        width: 15%;
+    }
+}
+
+
+/* desktop styles */
+
+@media only screen and (min-width: 1025px)
+{
+    header{
+        background-image: url('../images/computer.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        background-position-y: 930mm;
+    }
+
+    header h1{
+        font-size: 80px;
+    }
+
+    nav li a{
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+
+    #container{
+        width: 75%;
+        margin: 20px auto;
+        border: 5px solid royalblue;
+    }
+
+    .active{
+        background-color: royalblue;
+        color: white;
+    }
+
+}
